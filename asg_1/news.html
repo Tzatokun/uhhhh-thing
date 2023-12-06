@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Your Website</title>
+</head>
+<body bgcolor="#909090">
+<script type="text/javascript" src="script.js"></script>
+<nav>
+	<div class="hotbar">
+    <div class="logo"><a href="index.html"><img src="images/Trollface_non-free.png" width="60" alt="logo"></a></div>
+    <div class="menu">
+      <a href="index.html">NEWS</a>
+      <a href="about.html">ABOUT</a>
+      <a href="services.html">PRODUCTS</a>
+    </div>
+	c
+  </div>
+</nav>
+	<h1></h1>
+<h1>New CatCap Series!</h1>
+<div class="event-slideshow">
+  <img class="fade-in-out center" src="images/skills cat.png" width= "700" height="695">
+  <img class="fade-in-out center" src="images/cat-brain-damage.gif" style="display: none" width= "700" height="695">
+  <img class="fade-in-out center" src="images/guh-cat.jpg" style="display: none"  width= "700" height="695">
+</div>
+
+	
+<script>
+  var images = document.querySelectorAll('.fade-in-out');
+  var index = 0;
+
+  function fadeInOutImage(){
+    images[index].style.display = 'none';
+    index = (index + 1) % images.length;
+    images[index].style.display = 'block';
+    images[index].classList.add('fade-in-out');
+  }
+
+  setInterval(fadeInOutImage, 4000);
+</script>
+
+
+
+</body>
+</html>
+
