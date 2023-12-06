@@ -1,0 +1,103 @@
+
+/*imported fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@100&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+/* Style for the hotbar */
+.hotbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Style for the logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style for the menu items */
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  font-size: 25px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.menu a:hover {
+  color: #ffd700;
+}
+
+h1{
+  background-color: #c9010e;
+  color: #fff;
+  padding: 10px 20px;
+  text-align:center;
+  font-size: 48px;
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+h2{
+	background-color: #808080;
+	padding:10px 20px;
+	text-align:center;
+	font-size: 35px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+h3{
+	width:90%;
+	text-align:center;
+	font-size:50px;
+	font-family: 'Nanum Gothic', sans-serif;
+	
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.event-slideshow {
+      position: relative;
+      max-width: 1000px;
+      margin: auto;
+    }
+.fade-in-out {
+	animation: fadeInOut ease 4s;
+}
+@keyframes fadeInOut {
+	0% {opacity: 0;}
+	25% { opacity: 1;}
+	75% { opacity: 1;}
+	100% {opacity: 0;}
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.image {
+  width: 30%;
+  height: auto;
+}
+
+.sorry {
+	font-size:10;
+	bottom:0;
+	position:fixed
+	}
